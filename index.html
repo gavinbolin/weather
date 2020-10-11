@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Weather</title>
+  <link rel="stylesheet" href="/styles.css">
+  <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+
+<body>
+  <nav class="navbar navbar-dark bg-dark navbar-expand-lg navbar-light bg-light">
+    <a href="index.html"><h1 class="nav-title">BolinBYU</h1></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="japan.html">Home</a>
+        <a class="nav-link" href="italy.html">Cities</a>
+        <a class="nav-link" href="paris.html">Comments</a>
+        <a class="nav-link" href="california.html">About</a>
+      </div>
+    </div>
+  </nav>
+  <div class='page'>
+    <div class="section header">
+      <h1><strong>Weather</strong></h1>
+    </div>
+    <br>
+  <form>
+    <label>Enter a U.S. city</label>
+    <input id="weatherInput" type="text"></input><br/>
+    <input id="weatherSubmit" type="submit" value="Submit"></input>
+  </form>
+  <div id="weatherResults">
+  </div>
+  <div id="forecastResults">
+	</div>
+  <div class="section footer">
+    <p>Access the GitHub repository <a href="https://github.com/BYU-CS-260-Winter-2020/lab-2-weather-app-gavinbolin.git">here</a></p>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js" integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ=" crossorigin="anonymous"></script>
+  <script text="type/javascript" src="/script.js">
+  </script>
+
+</body>
+
+</html>
